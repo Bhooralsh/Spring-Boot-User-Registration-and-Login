@@ -10,6 +10,9 @@ public class UserRegistrationDto {
 	
 	
 	
+	public UserRegistrationDto() {
+		super();
+	}
 	public UserRegistrationDto(String firstName, String lastName, String email, String password) {
 		super();
 		this.firstName = firstName;
